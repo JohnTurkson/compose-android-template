@@ -3,12 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name="com.example.template.android.MainApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/Theme.Template"
         tools:targetApi="33">
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            tools:node="remove" />
+
         <activity
             android:name="com.example.template.android.MainActivity"
             android:exported="true"
