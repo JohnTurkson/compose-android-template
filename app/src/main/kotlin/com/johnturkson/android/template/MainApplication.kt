@@ -1,4 +1,4 @@
-package com.example.template.android
+package com.johnturkson.android.template
 
 import android.app.Application
 import androidx.hilt.work.HiltWorkerFactory
