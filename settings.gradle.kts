@@ -38,5 +38,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "p"
+rootProject.name = "prototype"
 include(":app")
